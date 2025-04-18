@@ -1,4 +1,12 @@
 
+Quantidade de Sinistralidade base completa: 49199
+CATEGORIA_SINISTRALIDADE
+Dentro da Faixa (+0% até 200%)    43218
+Missing (0%)                       5462
+Outlier Superior (+200%)            363
+Outlier Inferior (-0%)              156
+Name: count. dtype: int64
+
 Sinistralidade Média: 0.7787
 Desvio Padrão: 0.1866
 Mediana (Q2): 0.7936

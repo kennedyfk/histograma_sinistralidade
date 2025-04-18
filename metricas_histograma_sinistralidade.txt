@@ -1,4 +1,9 @@
 
+Quantidade de Sinistralidade base completa: 38466
+Quantidade de Sinistralidade menor que 0%: 56
+Quantidade de Sinistralidade igual a 0%: 1
+Quantidade de Sinistralidade maior que 200%: 97
+
 Sinistralidade Média: 0.7787
 Desvio Padrão: 0.1866
 Mediana (Q2): 0.7980
