@@ -1,0 +1,135 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  color: #000000;
+  padding: 20px;
+  display: block;
+  justify-items: center;
+  justify-content: center;
+
+}
+
+.container1 {
+  width: 1100px;
+  height: auto;
+  display: block;
+  justify-items: center;
+  justify-items: center;
+  justify-self: center;
+  padding-top: 75px;
+}
+
+.container {
+  width: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.perfil {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.usuario .nome {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.usuario .arroba {
+  color: #536471;
+  font-size: 16px;
+}
+
+.titulo {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.codigo {
+  width: 100%;
+  background-color: #04212b;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+
+  /* Sombra no bloco de código */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .40);
+}
+
+
+.codigo pre {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+.grafico {
+  width: 90%;
+  height: auto;
+  margin: 15px 0;
+}
+
+.codigo .terminal {
+  color: #b0b8c1;
+}
+
+.codigo .imp {
+  color: #e0694c;
+}
+
+.codigo .modulo {
+  color: #52c4c4;
+}
+
+.botoes {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.vermelho {
+  background-color: #ff5f56;
+}
+
+.amarelo {
+  background-color: #ffbd2e;
+}
+
+.verde {
+  background-color: #27c93f;
+}
+
+#downloadBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 155px;
+}
+
+footer {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 90px;
+  margin: 35px 0;
+}

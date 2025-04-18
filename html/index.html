@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container1" id="container">
+    <div class="container">
+      <div class="header">
+        <img class="perfil" src="./img/logo.jpg" alt="Trading com Dados">
+        <div class="usuario">
+          <span class="nome">Kennedy Freire</span><br>
+          <span class="arroba">@kennedyfreire</span>
+        </div>
+      </div>
+      <h2>Sinistralidade – Indicador 3 da RN 518/2022: Análise Histórica</h2>
+
+      <div class="codigo">
+        <div class="botoes">
+          <span class="btn vermelho"></span>
+          <span class="btn amarelo"></span>
+          <span class="btn verde"></span>
+        </div>
+        <center><img class="grafico" src="./img/download.png" alt="Trading com Dados"></center>
+        <pre>
+  <span class="imp">Sinistralidade Média:</span> 0,7780
+  <span class="modulo">Desvio Padrão:</span> 0,1730
+
+  <span class="imp">Período Histórico de Análise:</span> 01/2011 até 09/2024
+  <span class="modulo">Qtde. de Sinist. Analisadas:</span> 38.313 Sinistralidades
+  <span class="imp">Qtde. de Operadoras Analisadas:</span> 984 Operadoras
+        </pre>
+      </div>
+
+    </div>
+    <footer>
+      <img src="img/rodape.png" alt="Logo Dolarame" class="logo">
+    </footer>
+  </div>
+
+
+
+  <button id="downloadBtn">📸 Baixar como PNG</button>
+
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script>
+    document.getElementById("downloadBtn").addEventListener("click", function () {
+      const target = document.getElementById("container");
+      html2canvas(target, {
+        scale: 5, // ⬅️ Aumenta a resolução (1 = padrão, 2 = bom, 3 = ótima qualidade)
+        useCORS: true,
+        width: target.offsetWidth,
+        height: target.offsetHeight,
+        backgroundColor: '#fff' // ⬅️ opcional, para transparência
+      }).then(canvas => {
+        const link = document.createElement("a");
+        link.download = "histograma_sinistralidade.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+      });
+    });
+  </script>
+</body>
+
+</html>

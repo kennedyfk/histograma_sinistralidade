@@ -1,0 +1,13 @@
+
+Sinistralidade Média: 0.7787
+Desvio Padrão: 0.1866
+Mediana (Q2): 0.7936
+Variância: 0.0348
+Coeficiente de Variação (CV): 0.2396
+Assimetria (Skewness): -0.1278
+Curtose: 5.2473
+Quartis: Q1 (25%): 0.7035 | Q2 (50%): 0.7936 |  Q3 (75%): 0.8683
+
+Período Histórico de Análise: 01/2010 até 09/2024
+Qtde. de Sinist. Analisadas: 43.218 Sinistralidades
+Qtde. de Operadoras Analisadas: 1066
